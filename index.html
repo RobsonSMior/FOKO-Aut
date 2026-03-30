@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FOKO AUTOMAÇÃO — Automação residencial de alto padrão em Porto Alegre. Home cinema, iluminação inteligente, som ambiente e segurança integrada." />
+  <meta name="keywords" content="automação residencial Porto Alegre, home cinema, iluminação inteligente, som ambiente, cortinas automatizadas, segurança residencial" />
+  <title>FOKO AUTOMAÇÃO — Automação Residencial de Alto Padrão</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="automacao.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">
+        <span class="logo__foko">FOKO</span>
+        <span class="logo__sub">AUTOMAÇÃO</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#servicos">Soluções</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#arquitetos">Parceiros</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="header__actions">
+        <a href="https://wa.me/5551986523247?text=Quero%20solicitar%20um%20projeto%20de%20automa%C3%A7%C3%A3o" target="_blank" rel="noopener" class="btn btn--outline btn--sm">Solicitar projeto</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80" alt="Residência moderna e automatizada" class="hero__img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__text">
+        <span class="hero__eyebrow reveal">Porto Alegre — RS</span>
+        <h1 class="hero__headline reveal">Automação residencial<br />de alto padrão<br /><em>em Porto Alegre</em></h1>
+        <p class="hero__sub reveal">Integração completa de iluminação, som, cinema e conforto para transformar sua casa em uma experiência inteligente.</p>
+        <p class="hero__note reveal">Projetos personalizados para clientes exigentes, arquitetos e construtoras.</p>
+        <div class="hero__actions reveal">
+          <a href="#simulador" class="btn btn--primary btn--lg">Solicitar projeto</a>
+          <a href="https://wa.me/5551986523247?text=Quero%20falar%20com%20um%20especialista" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Falar com especialista
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll"><span></span></div>
+    <div class="hero__stats reveal">
+      <div class="container hero__stats-inner">
+        <div class="hero__stat">
+          <strong>100%</strong>
+          <span>Projetos personalizados</span>
+        </div>
+        <div class="hero__stat-sep"></div>
+        <div class="hero__stat">
+          <strong>Porto Alegre</strong>
+          <span>e região</span>
+        </div>
+        <div class="hero__stat-sep"></div>
+        <div class="hero__stat">
+          <strong>Alto padrão</strong>
+          <span>Residencial e corporativo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. PROPOSTA DE VALOR -->
+  <section class="value section" id="valor">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">O que fazemos</span>
+        <h2 class="section-title">Tecnologia que simplifica<br />e valoriza seu espaço</h2>
+      </div>
+      <div class="value__grid">
+        <div class="value__item reveal">
+          <div class="value__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg>
+          </div>
+          <h3>Controle total em um único sistema</h3>
+          <p>Toda a sua casa gerenciada de um único painel, aplicativo ou voz</p>
+        </div>
+        <div class="value__item reveal">
+          <div class="value__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3>Integração completa entre dispositivos</h3>
+          <p>Som, luz, clima, segurança e cinema funcionando juntos de forma harmônica</p>
+        </div>
+        <div class="value__item reveal">
+          <div class="value__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Conforto, segurança e sofisticação</h3>
+          <p>Uma casa que antecipa suas necessidades e responde ao seu estilo de vida</p>
+        </div>
+        <div class="value__item reveal">
+          <div class="value__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Projetos sob medida</h3>
+          <p>Cada solução é pensada exclusivamente para o seu espaço e rotina</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SERVIÇOS -->
+  <section class="services section section--dark" id="servicos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label label--gold">Soluções</span>
+        <h2 class="section-title section-title--light">Cada ambiente,<br />uma experiência</h2>
+      </div>
+      <div class="services__grid">
+
+        <div class="services__card reveal">
+          <div class="services__card-img">
+            <img src="https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80" alt="Sala de cinema exclusiva em residência de alto padrão" loading="lazy" />
+            <div class="services__card-overlay"></div>
+          </div>
+          <div class="services__card-body">
+            <span class="services__tag">Home Cinema</span>
+            <h3>Home Cinema Imersivo</h3>
+            <p>Experiência de cinema dentro da sua casa com áudio e imagem profissionais. Projetos 5.1 e Dolby Atmos.</p>
+            <a href="#contato" class="services__link">Solicitar projeto <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+
+        <div class="services__card reveal">
+          <div class="services__card-img">
+            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80" alt="Sala de cinema feita em casa com poltronas e telão" loading="lazy" />
+            <div class="services__card-overlay"></div>
+          </div>
+          <div class="services__card-body">
+            <span class="services__tag">Som Ambiente</span>
+            <h3>Som Multiroom</h3>
+            <p>Música integrada em todos os ambientes da casa. Controle independente por zona.</p>
+            <a href="#contato" class="services__link">Solicitar projeto <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+
+        <div class="services__card reveal">
+          <div class="services__card-img">
+            <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?auto=format&fit=crop&w=800&q=80" alt="Iluminação inteligente" loading="lazy" />
+            <div class="services__card-overlay"></div>
+          </div>
+          <div class="services__card-body">
+            <span class="services__tag">Iluminação</span>
+            <h3>Iluminação Inteligente</h3>
+            <p>Cenários personalizados para cada momento — despertar, relaxar, receber ou trabalhar.</p>
+            <a href="#contato" class="services__link">Solicitar projeto <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+
+        <div class="services__card reveal">
+          <div class="services__card-img">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Cortinas automatizadas" loading="lazy" />
+            <div class="services__card-overlay"></div>
+          </div>
+          <div class="services__card-body">
+            <span class="services__tag">Cortinas</span>
+            <h3>Cortinas Automatizadas</h3>
+            <p>Conforto e praticidade com controle automático por rotina, sensor ou comando de voz.</p>
+            <a href="#contato" class="services__link">Solicitar projeto <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+
+        <div class="services__card reveal">
+          <div class="services__card-img">
+            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80" alt="Família feliz com sistema de segurança em casa" loading="lazy" />
+            <div class="services__card-overlay"></div>
+          </div>
+          <div class="services__card-body">
+            <span class="services__tag">Segurança</span>
+            <h3>Segurança Integrada</h3>
+            <p>Câmeras, alarmes e controle de acesso conectados. Monitoramento em tempo real de qualquer lugar.</p>
+            <a href="#contato" class="services__link">Solicitar projeto <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. EXPERIÊNCIA / STORYTELLING -->
+  <section class="experience section" id="experiencia">
+    <div class="experience__bg">
+      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1920&q=80" alt="Sala de estar moderna e automatizada" loading="lazy" />
+      <div class="experience__overlay"></div>
+    </div>
+    <div class="container experience__inner">
+      <div class="experience__text reveal">
+        <span class="label label--gold">A experiência</span>
+        <h2 class="section-title section-title--light">Mais do que tecnologia.<br /><em>Uma nova forma de viver.</em></h2>
+        <p>Você chega em casa. As luzes acendem no tom certo, a temperatura está ideal, sua música favorita começa a tocar suavemente.</p>
+        <p>Sem apertar botões. Sem procurar controles. Sem pensar.</p>
+        <p>É assim que uma casa verdadeiramente inteligente funciona — ela aprende sua rotina, antecipa seus hábitos e cria o ambiente perfeito para cada momento do seu dia.</p>
+        <p class="experience__note">Conforto, exclusividade e praticidade. Todo dia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PROVA SOCIAL -->
+  <section class="social section" id="autoridade">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Confiança e resultado</span>
+        <h2 class="section-title">O que nossos clientes<br />passam a viver</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial__card reveal">
+          <div class="testimonial__stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="testimonial__text">"A FOKO transformou completamente a forma como usamos a casa. Hoje tudo é automático — luzes, som, cinema. O nível de conforto mudou demais. Recomendo sem hesitar."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">R.M.</div>
+            <div>
+              <strong>Ricardo M.</strong>
+              <span>Moinhos de Vento, Porto Alegre</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial__card reveal">
+          <div class="testimonial__stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="testimonial__text">"Como arquiteta, precisava de um parceiro que entendesse o projeto e entregasse integração real. A FOKO foi precisa em cada etapa — do planejamento à entrega. Parceria de longo prazo."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">C.F.</div>
+            <div>
+              <strong>Carolina F.</strong>
+              <span>Arquiteta — Porto Alegre</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial__card reveal">
+          <div class="testimonial__stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="testimonial__text">"O home cinema ficou além do que imaginávamos. A qualidade do som e da imagem é impressionante. Todo o processo foi transparente e profissional do começo ao fim."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">A.S.</div>
+            <div>
+              <strong>André S.</strong>
+              <span>Três Figueiras, Porto Alegre</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="brands reveal">
+        <p class="brands__label">Tecnologias e plataformas</p>
+        <div class="brands__row">
+          <div class="brand-pill">Dolby Atmos</div>
+          <div class="brand-pill">Controlart</div>
+          <div class="brand-pill">Denon</div>
+          <div class="brand-pill">Loud Audio</div>
+          <div class="brand-pill">DTS:X</div>
+          <div class="brand-pill">KNX</div>
+          <div class="brand-pill">JBL</div>
+          <div class="brand-pill">Intelbras</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. PORTFÓLIO -->
+  <section class="portfolio section section--dark" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label label--gold">Portfólio</span>
+        <h2 class="section-title section-title--light">Projetos que falam<br />por si mesmos</h2>
+      </div>
+      <div class="portfolio__grid">
+        <div class="portfolio__item portfolio__item--wide reveal">
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" alt="Sala ampla de residência de alto padrão" loading="lazy" />
+          <div class="portfolio__item-info">
+            <span>Sala integrada</span>
+            <p>Espaços amplos com iluminação, som e climatização funcionando como um só sistema</p>
+          </div>
+        </div>
+        <div class="portfolio__item reveal">
+          <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80" alt="Home cinema residencial" loading="lazy" />
+          <div class="portfolio__item-info">
+            <span>Home Cinema</span>
+            <p>Sistema 5.1 Dolby Atmos</p>
+          </div>
+        </div>
+        <div class="portfolio__item reveal">
+          <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?auto=format&fit=crop&w=800&q=80" alt="Iluminação inteligente residencial" loading="lazy" />
+          <div class="portfolio__item-info">
+            <span>Iluminação</span>
+            <p>Cenários Lutron personalizados</p>
+          </div>
+        </div>
+        <div class="portfolio__item reveal">
+          <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80" alt="Ambiente residencial sofisticado automatizado" loading="lazy" />
+          <div class="portfolio__item-info">
+            <span>Residência completa</span>
+            <p>Automação total de alto padrão</p>
+          </div>
+        </div>
+        <div class="portfolio__item reveal">
+          <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&w=800&q=80" alt="Pessoa usando celular com conexão Wi-Fi estável em casa" loading="lazy" />
+          <div class="portfolio__item-info">
+            <span>Rede e Wi-Fi</span>
+            <p>Internet em todos os cantos da casa — sem travamentos, sem pontos cegos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. ARQUITETOS -->
+  <section class="architects section" id="arquitetos">
+    <div class="container architects__inner">
+      <div class="architects__visual reveal">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80" alt="Arquiteto planejando projeto residencial" loading="lazy" />
+      </div>
+      <div class="architects__text reveal">
+        <span class="label">Para arquitetos e construtoras</span>
+        <h2 class="section-title">Parcerias que elevam<br />o padrão do projeto</h2>
+        <p>Oferecemos suporte técnico completo desde a fase de projeto até a execução, garantindo integração perfeita com o conceito arquitetônico.</p>
+        <p>Trabalhamos com seus clientes como uma extensão da sua equipe — com discrição, precisão e alinhamento total ao design.</p>
+        <ul class="architects__list">
+          <li>Suporte técnico desde o projeto</li>
+          <li>Compatibilidade com todos os estilos arquitetônicos</li>
+          <li>Documentação técnica completa</li>
+          <li>Atendimento prioritário para parceiros</li>
+        </ul>
+        <a href="https://wa.me/5551986523247?text=Quero%20ser%20parceiro%20FOKO" target="_blank" rel="noopener" class="btn btn--primary btn--lg">Quero ser parceiro</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. DIFERENCIAIS -->
+  <section class="differentials section section--white" id="diferenciais">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Por que a FOKO</span>
+        <h2 class="section-title section-title--center">O padrão que você<br />não encontra em qualquer lugar</h2>
+      </div>
+      <div class="diff__grid">
+        <div class="diff__item reveal">
+          <div class="diff__num">01</div>
+          <h3>Atendimento personalizado</h3>
+          <p>Cada projeto recebe dedicação exclusiva. Você fala diretamente com quem vai executar.</p>
+        </div>
+        <div class="diff__item reveal">
+          <div class="diff__num">02</div>
+          <h3>Projetos exclusivos</h3>
+          <p>Não trabalhamos com pacotes prontos. Cada solução é desenvolvida para o seu espaço.</p>
+        </div>
+        <div class="diff__item reveal">
+          <div class="diff__num">03</div>
+          <h3>Integração completa</h3>
+          <p>Não apenas instalamos equipamentos. Criamos um ecossistema que funciona em harmonia.</p>
+        </div>
+        <div class="diff__item reveal">
+          <div class="diff__num">04</div>
+          <h3>Pós-venda premium</h3>
+          <p>Suporte contínuo após a entrega. Você não fica sozinho depois da instalação.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. SIMULADOR -->
+  <section class="simulator section" id="simulador">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Investimento</span>
+        <h2 class="section-title section-title--center">Descubra o investimento<br />ideal para seu projeto</h2>
+        <p class="section-sub">Responda três perguntas e receba uma estimativa personalizada via WhatsApp</p>
+      </div>
+      <div class="simulator__card reveal">
+        <div class="simulator__steps">
+          <div class="sim-step active" data-step="1">
+            <p class="sim-step__label">Tipo de imóvel</p>
+            <div class="sim-options" id="step1">
+              <button class="sim-option" data-value="Casa">Casa</button>
+              <button class="sim-option" data-value="Apartamento">Apartamento</button>
+              <button class="sim-option" data-value="Cobertura">Cobertura</button>
+              <button class="sim-option" data-value="Comercial">Comercial</button>
+            </div>
+          </div>
+          <div class="sim-step" data-step="2">
+            <p class="sim-step__label">Tamanho aproximado</p>
+            <div class="sim-options" id="step2">
+              <button class="sim-option" data-value="Até 100m²">Até 100m²</button>
+              <button class="sim-option" data-value="100 a 250m²">100–250m²</button>
+              <button class="sim-option" data-value="250 a 500m²">250–500m²</button>
+              <button class="sim-option" data-value="Acima de 500m²">Acima de 500m²</button>
+            </div>
+          </div>
+          <div class="sim-step" data-step="3">
+            <p class="sim-step__label">O que deseja automatizar</p>
+            <div class="sim-options sim-options--multi" id="step3">
+              <button class="sim-option" data-value="Home Cinema">Home Cinema</button>
+              <button class="sim-option" data-value="Iluminação">Iluminação</button>
+              <button class="sim-option" data-value="Som Ambiente">Som Ambiente</button>
+              <button class="sim-option" data-value="Segurança">Segurança</button>
+              <button class="sim-option" data-value="Cortinas">Cortinas</button>
+              <button class="sim-option" data-value="Automação completa">Automação completa</button>
+            </div>
+          </div>
+        </div>
+        <div class="simulator__progress">
+          <div class="sim-progress-bar"><div class="sim-progress-fill" id="progressFill"></div></div>
+          <span class="sim-progress-label" id="progressLabel">Passo 1 de 3</span>
+        </div>
+        <div class="simulator__nav">
+          <button class="btn btn--ghost-dark" id="simBack" style="display:none">Voltar</button>
+          <button class="btn btn--primary" id="simNext">Próximo</button>
+        </div>
+        <div class="simulator__result" id="simResult" style="display:none">
+          <p class="sim-result__text">Suas escolhas foram registradas. Fale com um especialista para receber a estimativa personalizada.</p>
+          <a href="#" id="simWaBtn" target="_blank" rel="noopener" class="btn btn--primary btn--lg">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Receber estimativa
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. FORMULÁRIO FINAL -->
+  <section class="contact section section--dark" id="contato">
+    <div class="container contact__inner">
+      <div class="contact__text reveal">
+        <span class="label label--gold">Próximo passo</span>
+        <h2 class="section-title section-title--light">Vamos transformar<br />seu projeto em realidade</h2>
+        <p>Preencha ao lado ou fale diretamente pelo WhatsApp. Um especialista entra em contato em até 24 horas.</p>
+        <div class="contact__alts">
+          <a href="https://wa.me/5551986523247" target="_blank" rel="noopener" class="contact__alt">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            (51) 98652-3247
+          </a>
+          <a href="tel:+5551986523247" class="contact__alt">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.015 1.2 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"/></svg>
+            Ligar agora
+          </a>
+        </div>
+      </div>
+      <div class="contact__form reveal">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome completo" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="whatsapp">WhatsApp</label>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(51) 9 0000-0000" autocomplete="tel" />
+          </div>
+          <div class="form-group">
+            <label for="project">Tipo de projeto</label>
+            <select id="project" name="project">
+              <option value="" disabled selected>Selecione uma opção</option>
+              <option value="Automação completa">Automação completa</option>
+              <option value="Home Cinema">Home Cinema</option>
+              <option value="Iluminação inteligente">Iluminação inteligente</option>
+              <option value="Som ambiente">Som ambiente</option>
+              <option value="Segurança">Segurança</option>
+              <option value="Consultoria">Consultoria</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem (opcional)</label>
+            <textarea id="message" name="message" rows="3" placeholder="Conte um pouco sobre seu projeto..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--full">Solicitar orçamento</button>
+          <p class="form__privacy">Seus dados não serão compartilhados com terceiros.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo">
+          <span class="logo__foko">FOKO</span>
+          <span class="logo__sub">AUTOMAÇÃO</span>
+        </a>
+        <p>Automação residencial de alto padrão.<br />Porto Alegre e região.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Soluções</h4>
+        <ul>
+          <li><a href="#servicos">Home Cinema</a></li>
+          <li><a href="#servicos">Som Ambiente</a></li>
+          <li><a href="#servicos">Iluminação Inteligente</a></li>
+          <li><a href="#servicos">Cortinas</a></li>
+          <li><a href="#servicos">Segurança</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#valor">Sobre</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#arquitetos">Parceiros</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contato</h4>
+        <a href="https://wa.me/5551986523247" target="_blank" rel="noopener">(51) 98652-3247</a>
+        <a href="tel:+5551986523247">Ligar agora</a>
+        <span>Porto Alegre — RS</span>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 FOKO AUTOMAÇÃO. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FIXO -->
+  <a href="https://wa.me/5551986523247?text=Quero%20falar%20com%20um%20especialista%20da%20FOKO" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-float__tooltip">Falar no WhatsApp</span>
+  </a>
+
+  <script src="automacao.js"></script>
+</body>
+</html>
